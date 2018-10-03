@@ -14,14 +14,11 @@
 # limitations under the License.
 #
 
-# Boot animation
-#TARGET_SCREEN_HEIGHT := 1080
-#TARGET_SCREEN_WIDTH := 1920
-
-
 # PixelExperience stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
+TARGET_ARCH := arm64
+TARGET_DENSITY := xxhdpi
 
 # Inherit 64-bit configs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -31,10 +28,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-
-TARGET_ARCH := arm64
-TARGET_DENSITY := xxhdpi
-TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit device configuration
 $(call inherit-product, device/nubia/nx551j/device.mk)
