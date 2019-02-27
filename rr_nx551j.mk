@@ -25,13 +25,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/nubia/nx551j/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_nx551j
+PRODUCT_NAME := rr_nx551j
 PRODUCT_DEVICE := nx551j
 PRODUCT_BRAND := nubia
 PRODUCT_MODEL := Nubia M2
@@ -43,4 +43,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="NX551J-user 6.0.1 MMB29M eng.nubia.20180327.124015 release-keys" \
     TARGET_DEVICE="NX551J"
 
-BUILD_FINGERPRINT=nubia/NX551J/NX551J:6.0.1/MMB29M/eng.nubia.20180327.124015:user/release-keys \
+BUILD_FINGERPRINT := nubia/NX551J/NX551J:6.0.1/MMB29M/eng.nubia.20180327.124015:user/release-keys \
