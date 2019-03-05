@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_nx551j.mk
+    $(LOCAL_DIR)/aosp_nx551j.mk

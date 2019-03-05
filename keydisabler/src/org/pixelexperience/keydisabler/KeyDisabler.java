@@ -14,9 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.hardware;
-
-import org.lineageos.internal.util.FileUtils;
+package org.pixelexperience.keydisabler;
 
 /*
  * Disable capacitive keys

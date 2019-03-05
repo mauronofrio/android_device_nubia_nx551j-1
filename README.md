@@ -1,4 +1,4 @@
-Copyright 2018 - The LineageOS Project
+Copyright 2018 - The Pixel Experience Project
 
 Device configuration for Nubia M2 (NX551J).
 =======================================================
